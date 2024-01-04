@@ -11,7 +11,7 @@ import Uses from "./components/Uses";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="h-screen">
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
