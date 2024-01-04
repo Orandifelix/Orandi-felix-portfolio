@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className="bg-gray-800 text-white h-full">
+    <div className="bg-gray-800 text-white py-10 h-screen">
       <h1 className="  w-4/5 m-auto ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

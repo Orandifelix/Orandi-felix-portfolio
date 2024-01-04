@@ -2,7 +2,7 @@ import React from 'react'
 
 function Projects() {
   return (
-    <div className="bg-gray-800 text-white h-full">
+    <div className="h-screen text-white ">
       <h1 className="  w-4/5 m-auto ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
