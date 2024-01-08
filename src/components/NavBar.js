@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { MdDarkMode } from "react-icons/md";
+import { CiLight } from "react-icons/ci";
+import { VscGithub } from "react-icons/vsc";
 
 const NavBar = () => {
   const [isMobileMenuVisible, setMobileMenuVisible] = useState(false);
@@ -36,10 +39,11 @@ const NavBar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
+              <VscGithub   className="text-2xl font-extrabold "/>
             </a>
             <button onClick={() => console.log("Toggle Background Mode")}>
-              Toggle Mode
+              <MdDarkMode />
+              <CiLight />
             </button>
           </div>
 
@@ -78,10 +82,11 @@ const NavBar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
+              <VscGithub />
             </a>
             <button onClick={() => console.log("Toggle Background Mode")}>
-              Toggle Mode
+              <CiLight />
+              <MdDarkMode />
             </button>
           </div>
         </div>
