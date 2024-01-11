@@ -39,7 +39,7 @@ function Home() {
       </div>
       <p className="mb-6 text-2xl font-bold mt-6">Featured blog posts</p>
       <div className="grid grid-cols-3 gap-6">
-        <div className="border-4 border-orange-200 p-6 rounded-lg mb-6 transition-transform transform hover:scale-105 duration-300 ease-in-out">
+        <div className="border-solid border-t-4 border-r-4 border-b-4 border-l-0 border-gradient p-6 rounded-lg mb-6 transition-transform transform hover:scale-105 duration-300 ease-in-out">
           <h2 className="text-xl font-bold mb-2">
             A Prelude to Web Development
           </h2>
@@ -63,6 +63,7 @@ function Home() {
             Read more
           </button>
         </div>
+
         <div className="border-4 border-orange-200 p-6 rounded-lg mb-6 transition-transform transform hover:scale-105 duration-300 ease-in-out">
           <h2 className="text-xl font-bold mb-2">
             A Prelude to Web Development

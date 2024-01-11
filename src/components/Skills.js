@@ -1,7 +1,8 @@
 import React from 'react'
 import { FaCode } from "react-icons/fa";
 import { FaHardDrive } from "react-icons/fa6";
-
+import { FcAndroidOs } from "react-icons/fc";
+import { HiRocketLaunch } from "react-icons/hi2";
 
 function Skills() {
   return (
@@ -12,8 +13,14 @@ function Skills() {
           style={{ border: "1px solid grey" }}
           className="flex flex-col items-center justify-center  p-6 rounded-lg mb-6"
         >
-          <FaCode style={{ fontSize: "48px", alignSelf: "center" }} />
-          <h3 className="text-xl">Frontend developer</h3>
+          <FaCode
+            style={{
+              fontSize: "58px",
+              alignSelf: "center",
+              color: "rgb(248,113,113)",
+            }}
+          />
+          <h3 className="text-xl p-2 font-bold">Frontend developer</h3>
           <ul className="list-disc pl-6">
             <li>
               Building dynamic user interfaces with React using components,
@@ -44,9 +51,13 @@ function Skills() {
           className="flex flex-col items-center justify-center   p-6 rounded-lg mb-6 "
         >
           <FaHardDrive
-            style={{ fontSize: "38px", alignSelf: "center"}}
+            style={{
+              fontSize: "44px",
+              alignSelf: "center",
+              color: "rgb(74,222,128)",
+            }}
           />
-          <h3 className="text-xl">Backend developer</h3>
+          <h3 className="text-xl p-2 font-bold">Backend developer</h3>
           <ul className="list-disc pl-6">
             <li>
               Building robust web applications using Ruby, a dynamic and
@@ -79,8 +90,8 @@ function Skills() {
           style={{ border: "1px solid grey" }}
           className="flex flex-col items-center justify-center   p-6 rounded-lg mb-6"
         >
-          <FaCode style={{ fontSize: "48px", alignSelf: "center" }} />
-          <h3 className="text-xl"> App Developer </h3>
+          <FcAndroidOs style={{ fontSize: "58px", alignSelf: "center" }} />
+          <h3 className="text-xl p-2 font-bold"> App Developer </h3>
           <ul className="list-disc pl-6">
             <li>
               Expertise in React Native for cross-platform mobile app
@@ -110,8 +121,17 @@ function Skills() {
           style={{ border: "1px solid grey" }}
           className="flex flex-col items-center justify-center   p-6 rounded-lg mb-6 "
         >
-          <FaCode style={{ fontSize: "48px", alignSelf: "center" }} />
-          <h3 className="text-xl"> Innovations & Explorations </h3>
+          <HiRocketLaunch
+            style={{
+              fontSize: "48px",
+              alignSelf: "center",
+              color: "rgb(221,56,69)",
+            }}
+          />
+          <h3 className="text-xl p-2 font-bold">
+            {" "}
+            Innovations & Explorations{" "}
+          </h3>
           <ul className="list-disc pl-6">
             <li>
               Researching on user communication and tech success to unravel key
