@@ -7,12 +7,13 @@ import About from "./components/About";
 import Blog from "./components/Blog";
 import Projects from "./components/Projects";
 import Uses from "./components/Uses";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
       <div className="h-fit  bg-gray-800">
-        <div className="w-4/5 m-auto">
+        <div className="w-4/5 m-auto pb-12">
           <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -21,6 +22,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/uses" element={<Uses />} />
           </Routes>
+          <Footer />
         </div>
       </div>
     </Router>
