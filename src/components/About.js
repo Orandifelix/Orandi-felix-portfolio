@@ -54,7 +54,7 @@ function About() {
           style={{
             width: "300px",
             height: "350px",
-            transform: "rotate(5deg)",
+            transform: "rotate(6deg)",
             margin: "auto",
             borderRadius: "10px",
           }}

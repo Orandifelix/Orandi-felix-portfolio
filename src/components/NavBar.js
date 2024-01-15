@@ -25,11 +25,19 @@ const NavBar = () => {
           </div>
 
           {/* Section 2 */}
-          <div className="hidden lg:flex items-center space-x-4 text-xl font-bold">
-            <Link to="/about">About</Link>
-            <Link to="/blog">Blog</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/uses">Uses</Link>
+          <div className="hidden lg:flex items-center space-x-4 text-xl font-bold ">
+            <Link to="/about" className=" hover:text-teal-600">
+              About
+            </Link>
+            <Link to="/blog" className=" hover:text-teal-600">
+              Blog
+            </Link>
+            <Link to="/projects" className=" hover:text-teal-600">
+              Projects
+            </Link>
+            <Link to="/uses" className=" hover:text-teal-600">
+              Uses
+            </Link>
           </div>
 
           {/* Section 3 */}
@@ -39,7 +47,7 @@ const NavBar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <VscGithub   className="text-2xl font-extrabold "/>
+              <VscGithub className="text-2xl font-extrabold " />
             </a>
             <button onClick={() => console.log("Toggle Background Mode")}>
               <MdDarkMode />
