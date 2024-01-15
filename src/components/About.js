@@ -30,24 +30,43 @@ function About() {
   }, [headings.length]);
 
   return (
-    <div className="bg-gray-800 w-4/5 m-auto text-white py-10 h-screen">
-      <h1 className="  text-4xl font-extrabold">
-        Hello, I'm Orandi Felix.
-      </h1>
-      <h2
-        className="w-1/2 text-4xl font-extrabold"
-        style={{
-          backgroundImage: gradients[visibleIndex],
-          WebkitBackgroundClip: "text",
-          WebkitTextFillColor: "transparent",
-        }}
-      >
-        {headings[visibleIndex]}
-      </h2>
+    <div className="bg-gray-800 w-4/5 m-auto grid grid-cols-2 gap-6 text-white py-10 h-screen">
+      <div>
+        <h1 className="  text-4xl font-extrabold">Hello, I'm Orandi Felix.</h1>
+        <h2
+          className=" text-4xl font-extrabold"
+          style={{
+            backgroundImage: gradients[visibleIndex],
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+          }}
+        >
+          {headings[visibleIndex]}
+        </h2>
+      </div>
+      <div className="flex items-center flex-col justify-center">
+        <img
+          src="https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?w=740&t=st=1705307889~exp=1705308489~hmac=5dccedb32e8b465d4f77ae5bb055bc0104771fdae215af1ac80fe4bdef27bb5f"
+          alt="avatar"
+          style={{
+            width: "300px",
+            height: "350px",
+            transform: "rotate(5deg)",
+            margin: "auto",
+            borderRadius: "10px",
+          }}
+        />
+        <div>
+          <h2>Follow On X</h2>
+          <h2>Follow On Github</h2>
+          <h2>Follow On LinkedIn</h2>
+          <h2>Follow On Youtube</h2>
+          <h2>Follow On Twitch</h2>
+          <h2>felixorandi@gmail.com</h2>
+        </div>
+      </div>
     </div>
   );
 }
 
 export default About;
-
-
