@@ -5,7 +5,7 @@ function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="flex items-center justify-between text-white">
+    <div className="flex items-center justify-between text-white w-4/5 m-auto">
       <div className="flex items-center justify-between">
         <Link to="/" className="mr-4">
           Home
@@ -21,7 +21,7 @@ function Footer() {
         </Link>
         <Link to="/uses">Uses</Link>
       </div>
-      <div>© {currentYear} Orandi Felix.  All rights reserved.</div>
+      <div>© {currentYear} Orandi Felix. All rights reserved.</div>
     </div>
   );
 }
