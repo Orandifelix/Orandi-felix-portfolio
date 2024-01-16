@@ -2,15 +2,16 @@ import React, { useState, useEffect } from "react";
 import { FaGithub, FaLinkedin, FaYoutube, FaTwitch } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdAttachEmail } from "react-icons/md";
+import Orandi from "./Orandi";
 
 function About() {
   const headings = [
-    "Fullstack Developer",
-    "Mobile App Developer",
-    "JavaScript Developer",
-    "Ruby & Ruby On Rails Developer",
-    "Corporate and Health Communication Strategist",
-    "User and Customer Success Enthusiast",
+    "Fullstack Developer,",
+    "Mobile App Developer,",
+    "JavaScript Developer,",
+    "Ruby & Ruby On Rails Developer,",
+    "Corporate and Health Communication Strategist,",
+    "User and Customer Success Enthusiast,",
   ];
 
   const gradients = [
@@ -34,20 +35,27 @@ function About() {
 
   return (
     <div className="bg-gray-800 w-4/5 m-auto grid grid-cols-2 gap-6 text-white py-10 ">
-      <div>
-        <h1 className="text-4xl font-extrabold">Hello, I'm Orandi Felix.</h1>
-        <h2
-          className="text-4xl font-extrabold"
-          style={{
-            backgroundImage: gradients[visibleIndex],
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-          }}
-        >
-          {headings[visibleIndex]}
-        </h2>
+      <div className=" ">
+        <div className=" min-h-32 overflow-y-auto overflow-x-hidden">
+          <h1 className="text-4xl font-extrabold">Hello, I'm Orandi Felix.</h1>
+          <h2
+            className="text-4xl font-extrabold"
+            style={{
+              backgroundImage: gradients[visibleIndex],
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            {headings[visibleIndex]}
+          </h2>
+        </div>
+
+        <div className="py-6">
+          <Orandi />
+        </div>
       </div>
-      <div className="flex items-center flex-col justify-center">
+
+      <div className="py-10">
         <img
           src="https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?w=740&t=st=1705307889~exp=1705308489~hmac=5dccedb32e8b465d4f77ae5bb055bc0104771fdae215af1ac80fe4bdef27bb5f"
           alt="avatar"
@@ -59,7 +67,7 @@ function About() {
             borderRadius: "10px",
           }}
         />
-        <div className="mt-20 flex flex-col gap-4">
+        <div className="mt-20 items-center flex flex-col gap-4">
           <a
             className="flex text-lg font-semibold items-center hover:text-teal-600"
             href="https://github.com/Orandifelix"
