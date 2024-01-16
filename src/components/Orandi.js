@@ -4,12 +4,12 @@ import { IoFolderOpen } from "react-icons/io5";
 function Orandi() {
   return (
     <div>
-      <div className="flex flex-col">
+      <div className="flex py-2 flex-col">
         <div className="flex items-center py-2">
           <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">Who I Am ?</h2>
         </div>
-        <div className="flex  ml-4">
+        <div className="flex mb-4 py-2 ml-4">
           <p
             style={{ borderLeft: "1px solid" }}
             className=" border-gray-200  px-6 "
@@ -25,12 +25,12 @@ function Orandi() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col">
+      <div className="flex py-2 flex-col">
         <div className="flex items-center py-2">
           <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">Who I Am ?</h2>
         </div>
-        <div className="flex  ml-4">
+        <div className="flex mb-4 py-2 ml-4">
           <p
             style={{ borderLeft: "1px solid" }}
             className=" border-gray-200  px-6 "
@@ -46,12 +46,12 @@ function Orandi() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col">
+      <div className="flex py-2 flex-col">
         <div className="flex items-center py-2">
           <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">Who I Am ?</h2>
         </div>
-        <div className="flex  ml-4">
+        <div className="flex mb-4 py-2 ml-4">
           <p
             style={{ borderLeft: "1px solid" }}
             className=" border-gray-200  px-6 "
@@ -67,12 +67,12 @@ function Orandi() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col">
+      <div className="flex py-2 flex-col">
         <div className="flex items-center py-2">
           <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">Who I Am ?</h2>
         </div>
-        <div className="flex  ml-4">
+        <div className="flex mb-4 py-2 ml-4">
           <p
             style={{ borderLeft: "1px solid" }}
             className=" border-gray-200  px-6 "
@@ -88,12 +88,12 @@ function Orandi() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col">
+      <div className="flex py-2 flex-col">
         <div className="flex items-center py-2">
           <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">Who I Am ?</h2>
         </div>
-        <div className="flex  ml-4">
+        <div className="flex mb-4 py-2 ml-4">
           <p
             style={{ borderLeft: "1px solid" }}
             className=" border-gray-200  px-6 "
