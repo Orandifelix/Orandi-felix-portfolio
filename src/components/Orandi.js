@@ -1,10 +1,21 @@
 import React from "react";
 import { IoFolderOpen } from "react-icons/io5";
+import { useSpring, animated } from "@react-spring/web";
+import { useInView } from "react-intersection-observer";
 
 function Orandi() {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+
+  const props = useSpring({
+    opacity: inView ? 1 : 0,
+    transform: inView ? "translateX(0)" : "translateX(-100%)",
+  });
+
   return (
     <div>
-      <div className="flex py-2 flex-col">
+      <animated.div style={props}  ref={ref} className="flex py-2 flex-col">
         <div className="flex items-center py-2">
           <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">Who I Am ?</h2>
@@ -24,8 +35,8 @@ function Orandi() {
             everything"
           </p>
         </div>
-      </div>
-      <div className="flex py-2 flex-col">
+      </animated.div>
+      <animated.div style={props} className="flex py-2 flex-col">
         <div className="flex items-center py-2">
           <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">Who I Am ?</h2>
@@ -45,8 +56,8 @@ function Orandi() {
             everything"
           </p>
         </div>
-      </div>
-      <div className="flex py-2 flex-col">
+      </animated.div>
+      <animated.div style={props} className="flex py-2 flex-col">
         <div className="flex items-center py-2">
           <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">Who I Am ?</h2>
@@ -66,8 +77,8 @@ function Orandi() {
             everything"
           </p>
         </div>
-      </div>
-      <div className="flex py-2 flex-col">
+      </animated.div>
+      <animated.div style={props} className="flex py-2 flex-col">
         <div className="flex items-center py-2">
           <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">Who I Am ?</h2>
@@ -87,8 +98,8 @@ function Orandi() {
             everything"
           </p>
         </div>
-      </div>
-      <div className="flex py-2 flex-col">
+      </animated.div>
+      <animated.div style={props} className="flex py-2 flex-col">
         <div className="flex items-center py-2">
           <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">Who I Am ?</h2>
@@ -108,7 +119,7 @@ function Orandi() {
             everything"
           </p>
         </div>
-      </div>
+      </animated.div>
     </div>
   );
 }
