@@ -70,16 +70,6 @@ function About() {
         <div className="mt-20 items-center flex flex-col gap-4">
           <a
             className="flex text-lg font-semibold items-center hover:text-teal-600"
-            href="https://github.com/Orandifelix"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithub size={20} className="mx-2" />
-            <span> Follow On Github</span>
-          </a>
-
-          <a
-            className="flex text-lg font-semibold items-center hover:text-teal-600"
             href="https://www.linkedin.com/in/orandi-felix"
             target="_blank"
             rel="noopener noreferrer"
@@ -87,6 +77,7 @@ function About() {
             <FaLinkedin size={20} className="mx-2" />
             <span> Follow On LinkedIn</span>
           </a>
+
           <a
             className="flex text-lg font-semibold items-center hover:text-teal-600"
             href="https://www.youtube.com"
@@ -98,12 +89,12 @@ function About() {
           </a>
           <a
             className="flex text-lg font-semibold items-center hover:text-teal-600"
-            href="https://twitter.com/fel_rand"
+            href="https://github.com/Orandifelix"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaXTwitter size={20} className="mx-2" />
-            <span> Follow On X</span>
+            <FaGithub size={20} className="mx-2" />
+            <span> Follow On Github</span>
           </a>
           <a
             className="flex text-lg font-semibold items-center hover:text-teal-600"
@@ -111,10 +102,19 @@ function About() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitch size={20} className="mx-2" />
+            <FaTwitch size={18} className="mx-2" />
             <span> Follow On Twitch</span>
           </a>
 
+          <a
+            className="flex text-lg font-semibold items-center hover:text-teal-600"
+            href="https://twitter.com/fel_rand"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaXTwitter size={20} className="mx-2" />
+            <span> Follow On X</span>
+          </a>
           <a
             className="flex text-lg font-semibold items-center hover:text-teal-600 my-10"
             href="https://www.gmail.com"
