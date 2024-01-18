@@ -1,7 +1,7 @@
 import React from "react";
 import { useSpring, animated } from "@react-spring/web";
 import { useInView } from "react-intersection-observer";
-import { IoFolderOpen } from "react-icons/io5";
+import { GoRocket } from "react-icons/go";
 
 function Uses() {
   const [ref, inView] = useInView({
@@ -14,7 +14,7 @@ function Uses() {
 
   return (
     <div className="w-4/5 m-auto text-white ">
-      <h1 className="text-4xl w-2/3 font-bold">
+      <h1 className="text-4xl w-2/3 font-bold py-6">
         Some of my uses, preferences and general things that I find awesome...
       </h1>
       <animated.div
@@ -23,7 +23,7 @@ function Uses() {
         className="flex py-2 flex-col w-11/12"
       >
         <div className="flex items-center py-2">
-          <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
+          <GoRocket style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">
             Workstation and Environment
           </h2>
@@ -51,7 +51,7 @@ function Uses() {
       </animated.div>
       <animated.div style={props} className="flex py-2 flex-col w-11/12">
         <div className="flex items-center py-2">
-          <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
+          <GoRocket style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">
             Workstation and Environment
           </h2>
@@ -79,7 +79,7 @@ function Uses() {
       </animated.div>
       <animated.div style={props} className="flex py-2 flex-col w-11/12">
         <div className="flex items-center py-2">
-          <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
+          <GoRocket style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">
             Workstation and Environment
           </h2>
@@ -107,7 +107,7 @@ function Uses() {
       </animated.div>
       <animated.div style={props} className="flex py-2 flex-col w-11/12">
         <div className="flex items-center py-2">
-          <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
+          <GoRocket style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">
             Workstation and Environment
           </h2>
