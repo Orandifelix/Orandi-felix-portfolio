@@ -14,8 +14,8 @@ function Orandi() {
   });
 
   return (
-    <div>
-      <animated.div style={props}  ref={ref} className="flex py-2 flex-col">
+    <div className="w-full lg:w-4/5 m-auto">
+      <animated.div style={props} ref={ref} className="flex py-2 flex-col">
         <div className="flex items-center py-2">
           <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">Who I Am ?</h2>
@@ -23,9 +23,9 @@ function Orandi() {
         <div className="flex mb-4 py-2 ml-4">
           <p
             style={{ borderLeft: "1px solid" }}
-            className=" border-gray-200  px-6 "
+            className="border-gray-200 px-6"
           ></p>
-          <p className="font-normal text-gray-300 text-lg ">
+          <p className="font-normal text-gray-300 text-lg">
             A simple nerd from Kenya who loves to code! I love talking and
             researching about physics. I love listening to music. I love movies
             and tv shows. I love pretty much all the nerdy things, what I would
@@ -36,7 +36,7 @@ function Orandi() {
           </p>
         </div>
       </animated.div>
-      <animated.div style={props} className="flex py-2 flex-col">
+      <animated.div style={props}   className="flex py-2 flex-col">
         <div className="flex items-center py-2">
           <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">Who I Am ?</h2>
@@ -44,9 +44,9 @@ function Orandi() {
         <div className="flex mb-4 py-2 ml-4">
           <p
             style={{ borderLeft: "1px solid" }}
-            className=" border-gray-200  px-6 "
+            className="border-gray-200 px-6"
           ></p>
-          <p className="font-normal text-gray-300 text-lg ">
+          <p className="font-normal text-gray-300 text-lg">
             A simple nerd from Kenya who loves to code! I love talking and
             researching about physics. I love listening to music. I love movies
             and tv shows. I love pretty much all the nerdy things, what I would
@@ -57,7 +57,7 @@ function Orandi() {
           </p>
         </div>
       </animated.div>
-      <animated.div style={props} className="flex py-2 flex-col">
+      <animated.div style={props}   className="flex py-2 flex-col">
         <div className="flex items-center py-2">
           <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">Who I Am ?</h2>
@@ -65,9 +65,9 @@ function Orandi() {
         <div className="flex mb-4 py-2 ml-4">
           <p
             style={{ borderLeft: "1px solid" }}
-            className=" border-gray-200  px-6 "
+            className="border-gray-200 px-6"
           ></p>
-          <p className="font-normal text-gray-300 text-lg ">
+          <p className="font-normal text-gray-300 text-lg">
             A simple nerd from Kenya who loves to code! I love talking and
             researching about physics. I love listening to music. I love movies
             and tv shows. I love pretty much all the nerdy things, what I would
@@ -78,7 +78,7 @@ function Orandi() {
           </p>
         </div>
       </animated.div>
-      <animated.div style={props} className="flex py-2 flex-col">
+      <animated.div style={props}   className="flex py-2 flex-col">
         <div className="flex items-center py-2">
           <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">Who I Am ?</h2>
@@ -86,9 +86,9 @@ function Orandi() {
         <div className="flex mb-4 py-2 ml-4">
           <p
             style={{ borderLeft: "1px solid" }}
-            className=" border-gray-200  px-6 "
+            className="border-gray-200 px-6"
           ></p>
-          <p className="font-normal text-gray-300 text-lg ">
+          <p className="font-normal text-gray-300 text-lg">
             A simple nerd from Kenya who loves to code! I love talking and
             researching about physics. I love listening to music. I love movies
             and tv shows. I love pretty much all the nerdy things, what I would
@@ -99,7 +99,7 @@ function Orandi() {
           </p>
         </div>
       </animated.div>
-      <animated.div style={props} className="flex py-2 flex-col">
+      <animated.div style={props}   className="flex py-2 flex-col">
         <div className="flex items-center py-2">
           <IoFolderOpen style={{ fontSize: "30px" }} className="mr-2" />
           <h2 className="px-4 text-xl font-semibold">Who I Am ?</h2>
@@ -107,9 +107,9 @@ function Orandi() {
         <div className="flex mb-4 py-2 ml-4">
           <p
             style={{ borderLeft: "1px solid" }}
-            className=" border-gray-200  px-6 "
+            className="border-gray-200 px-6"
           ></p>
-          <p className="font-normal text-gray-300 text-lg ">
+          <p className="font-normal text-gray-300 text-lg">
             A simple nerd from Kenya who loves to code! I love talking and
             researching about physics. I love listening to music. I love movies
             and tv shows. I love pretty much all the nerdy things, what I would

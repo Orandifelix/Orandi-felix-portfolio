@@ -34,9 +34,9 @@ function About() {
   }, [headings.length]);
 
   return (
-    <div className="bg-gray-800 w-4/5 m-auto grid grid-cols-2 gap-6 text-white py-10 ">
-      <div className=" ">
-        <div className=" min-h-32 overflow-y-auto overflow-x-hidden">
+    <div className="bg-gray-800 w-full lg:w-4/5 m-auto grid grid-cols-1 lg:grid-cols-2 gap-6 text-white py-10">
+      <div className="flex flex-col justify-center">
+        <div className="min-h-32 overflow-y-auto overflow-x-hidden">
           <h1 className="text-4xl font-extrabold">Hello, I'm Orandi Felix.</h1>
           <h2
             className="text-4xl font-extrabold"
@@ -59,15 +59,15 @@ function About() {
         <img
           src="https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?w=740&t=st=1705307889~exp=1705308489~hmac=5dccedb32e8b465d4f77ae5bb055bc0104771fdae215af1ac80fe4bdef27bb5f"
           alt="avatar"
+          className="w-full md:max-w-48 lg:w-full md:m-auto mx-auto  "
           style={{
-            width: "300px",
-            height: "350px",
+            width: "100%",
+            height: "auto",
             transform: "rotate(6deg)",
-            margin: "auto",
             borderRadius: "10px",
           }}
         />
-        <div className="mt-20 items-center flex flex-col gap-4">
+        <div className="mt-10 items-center flex flex-col gap-4">
           <a
             className="flex text-lg font-semibold items-center hover:text-teal-600"
             href="https://www.linkedin.com/in/orandi-felix"
